@@ -399,7 +399,7 @@ hostAliases: []
 # It prevents Pods being scheduled to Windows nodes in a mixed OS cluster.
 # +docs:property
 nodeSelector:
-  name: node-1-de
+  name: system-node-de
   
 # +docs:ignore
 ingressShim: {}
