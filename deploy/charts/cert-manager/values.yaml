@@ -399,7 +399,7 @@ hostAliases: []
 # It prevents Pods being scheduled to Windows nodes in a mixed OS cluster.
 # +docs:property
 nodeSelector:
-  name: system-node-de
+  name: node-11-ovh-sg
   
 # +docs:ignore
 ingressShim: {}
@@ -816,7 +816,7 @@ webhook:
   # It prevents Pods being scheduled to Windows nodes in a mixed OS cluster.
   # +docs:property
   nodeSelector:
-    name: system-node-de
+    name: node-11-ovh-sg
 
   # A Kubernetes Affinity, if required. For more information, see [Affinity v1 core](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#affinity-v1-core).
   #
@@ -1131,7 +1131,7 @@ cainjector:
   # It prevents Pods being scheduled to Windows nodes in a mixed OS cluster.
   # +docs:property
   nodeSelector:
-    name: system-node-de
+    name: node-11-ovh-sg
 
   # A Kubernetes Affinity, if required. For more information, see [Affinity v1 core](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#affinity-v1-core).
   #
@@ -1340,7 +1340,7 @@ startupapicheck:
   # It prevents Pods being scheduled to Windows nodes in a mixed OS cluster.
   # +docs:property
   nodeSelector:
-    name: system-node-de
+    name: node-11-ovh-sg
 
   # A Kubernetes Affinity, if required. For more information, see [Affinity v1 core](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#affinity-v1-core).
   # For example:
